@@ -1,0 +1,11 @@
+.env
+venv
+.idea
+charts_data
+.ipynb_checkpoints
+spotify_data/billboard_audio_features.pkl
+spotify_data/.ipynb_checkpoints
+spotify_data/.cache
+billboard/billboard_w_ids.pkl
+billboard/billboard_weekly.pkl
+billboard/billboard_weekly_1960.pkl
