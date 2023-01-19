@@ -42,7 +42,11 @@ class SpotifyAPI:
             else:
                 break
 
-            results = self.spotify.audio_features(uri)
+            try:
+                results = self.spotify.audio_features(uri)
+            except Exception as e:
+                print(e)
+                continue
 
             audio_features_list = []
             for audio_features in results:
