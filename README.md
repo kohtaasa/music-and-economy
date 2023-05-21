@@ -1,4 +1,7 @@
-# music-and-economy
-I estimated the correlations between audio features of hit songs and the unemployment rate in the U.S.
+# Popular Music and the U.S. Economy: How Consumer Preferences in Music Change as the U.S. Economy Shifts
 
-complete_analysis.ipynb is the latest analysis.
+I investigated the relationship between the U.S. unemployment rate and popular music's audio features, such as 
+acousticness, danceability, energy, instrumentality, key, liveliness, loudness, mode, speechiness, tempo, and valence, 
+using regression analyses.
+
+
